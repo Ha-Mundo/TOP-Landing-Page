@@ -93,7 +93,28 @@ button,
   cursor: pointer;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px 250px 70px 250px;
+}
+
+.card {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 .testimonial {
+  padding: 100px 250px;
   background-color: #e5e7eb;
 }
 
