@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
 html {
@@ -12,4 +13,98 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+}
+
+/* Desktop Layout */
+.hero {
+  padding: 10px 150px;
+  min-height: 100vh;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo img {
+  max-width: 60px;
+  height: auto;
+}
+.hero-container {
+  display: flex;
+  margin: 150px 0;
+}
+
+.hero-img {
+  max-width: 500px;
+  height: auto;
+}
+.hero,
+footer {
+  background-color: #1f2937;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.left-hero {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+}
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+a,
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+button {
+  color: white;
+  height: 25px;
+  width: 60px;
+  /* border: none; */
+  border-radius: 5px;
+  border-color: #e5e7eb;
+}
+
+button,
+.sign-up-box {
+  background-color: #3882f6;
+  cursor: pointer;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.info-header-text {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
 }
